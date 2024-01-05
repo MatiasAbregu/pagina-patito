@@ -1,0 +1,131 @@
+@media screen and (min-width: 320px) {
+    .contenedor-nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        border-radius: 38px;
+        width: 100%;
+        transition: 1.5s ease;
+        cursor: pointer;
+        border: none;
+        margin: 1% 1.2%;
+        background: transparent;
+        text-decoration: none;
+    }
+    
+    .contenedor-nav i {
+        margin-left: -1%;
+        background-color: white;
+        color: #1b1b1b;
+        font-size: 35px;
+        border-radius: 35px;
+        padding: 0px 6px;
+    }
+    
+    .letra-i {
+        margin: 0;
+        color: white;
+        font-size: 24px;
+        margin-left: 4%;
+        display: none;
+        text-align: center;
+        user-select: none;
+    }
+    
+    .contenedor-nav:hover {
+        transition: 0.3s ease;
+        width: 100%;
+    }
+    
+    .contenedor-nav:hover .letra-i {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contenedor-nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        border-radius: 38px;
+        width: 100%;
+        transition: 1.5s ease;
+        cursor: pointer;
+        border: none;
+        margin: 1% 1.2%;
+        background: transparent;
+        text-decoration: none;
+    }
+    
+    .contenedor-nav i {
+        margin-left: -1%;
+        background-color: white;
+        color: #1b1b1b;
+        font-size: 40px;
+        border-radius: 35px;
+        padding: 0px 11px;
+    }
+    
+    .letra-i {
+        margin: 0;
+        color: white;
+        font-size: 24px;
+        margin-left: 4%;
+        display: none;
+        text-align: center;
+        user-select: none;
+    }
+    
+    .contenedor-nav:hover {
+        transition: 0.3s ease;
+        width: 100%;
+    }
+    
+    .contenedor-nav:hover .letra-i {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contenedor-nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        border-radius: 38px;
+        width: 100%;
+        transition: 1.5s ease;
+        cursor: pointer;
+        border: 4px solid white;
+        margin: 5% 0;
+        background: linear-gradient(180deg, #04fafd, 5%, #119dff, 75%, #030423);
+        text-decoration: none;
+    }
+    
+    .contenedor-nav i {
+        margin-left: -1%;
+        background-color: white;
+        color: #1b1b1b;
+        font-size: 40px;
+        border-radius: 35px;
+        padding: 0px 11px;
+    }
+    
+    .letra-i {
+        margin: 0;
+        color: white;
+        font-size: 24px;
+        margin-left: 4%;
+        display: none;
+        text-align: center;
+        user-select: none;
+    }
+    
+    .contenedor-nav:hover {
+        transition: 0.3s ease;
+        width: 390%;
+    }
+    
+    .contenedor-nav:hover .letra-i {
+        display: block;
+    }
+}

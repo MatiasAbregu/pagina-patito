@@ -1,0 +1,6 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #04fafd, 5%, #119dff, 45%, #000);
+    font-family: 'Chakra Petch', sans-serif;
+}

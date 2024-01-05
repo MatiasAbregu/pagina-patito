@@ -1,0 +1,140 @@
+@media screen and (min-width: 320px) {
+    nav {
+        position: sticky;
+        margin: 0 5%;
+        z-index: 10;
+        top: 1%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 90%;
+        border-radius: 40px;
+        border: 4px solid white;
+        padding: 0 5%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        margin: 0 20%;
+        z-index: 10;
+        top: 1%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 60%;
+        border-radius: 40px;
+        border: 4px solid white;
+        padding: 0 5%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    nav {
+        position: sticky;
+        z-index: 10;
+        top: 24%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-left: 1%;
+        width: 8.1%;
+        border-radius: 40px;
+        padding: 0.6% 0.3%;
+        border: 4px solid white;
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    nav {
+        width: 7.8%;
+    }
+}
+
+@media screen and (min-width: 1052px) {
+    nav {
+        width: 7.6%;
+    }
+}
+
+@media screen and (min-width: 1118px) {
+    nav {
+        width: 7.3%;
+    }
+}
+
+@media screen and (min-width: 1160px) {
+    nav {
+        width: 7%;
+    }
+}
+
+@media screen and (min-width: 1226px) {
+    nav {
+        width: 6.7%;
+    }
+}
+
+@media screen and (min-width: 1282px) {
+    nav {
+        width: 6.4%;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    nav {
+        width: 6.1%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    nav {
+        width: 5.8%;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    nav {
+        width: 5.5%;
+    }
+}
+
+@media screen and (min-width: 1605px) {
+    nav {
+        width: 5.2%;
+    }
+}
+
+@media screen and (min-width: 1720px) {
+    nav {
+        width: 5%;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    nav {
+        width: 4.7%;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    nav {
+        position: sticky;
+        z-index: 10;
+        top: 24%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-left: 1%;
+        width: 4%;
+        border-radius: 40px;
+        padding: 0.6% 0.3%;
+        border: 4px solid white;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    nav {
+        width: 3.5%;
+    }
+}
