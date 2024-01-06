@@ -123,9 +123,9 @@ export const App = () => {
         <div>
           <p>¡Siguenos en nuestras redes o ponte en contacto con nosotros!:</p>
           <br />
-          <IconFooter img={"bi-instagram"} vinculo={""} />
-          <IconFooter img={"bi-tiktok"} vinculo={""} />
-          <IconFooter img={"bi-envelope"} vinculo={""} />
+          <IconFooter img={"bi-instagram"} vinculo={"https://www.instagram.com/patito_software/"} />
+          <IconFooter img={"bi-tiktok"} vinculo={"https://www.tiktok.com/@patito_software"} />
+          <IconFooter img={"bi-envelope"} vinculo={"mailto:patitosoftware@gmail.com"} />
         </div>
         <h4>© Derechos reservados a Patito Software - 2024</h4>
       </footer>
