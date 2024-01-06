@@ -9,6 +9,10 @@ export const ServiceCard = ({title, info, carac}) => {
         lista = carac.map(item => <li className="card-text">{item}</li>);
     }
 
+    const moverAContactar = () => {
+        window.location.href = "#contactanos";
+    }
+
     return (
         <div className="card">
             <span className="reflejo"></span>
@@ -20,7 +24,7 @@ export const ServiceCard = ({title, info, carac}) => {
                     {lista}
                 </ul>
                 <hr />
-                <button type="button" className="btn btn-primary">¡CONTACTANOS!</button>
+                <button type="button" className="btn btn-primary btn-contactar" onClick={moverAContactar}>¡CONTACTANOS!</button>
             </div>
             <span className="reflejo2"></span>
         </div>

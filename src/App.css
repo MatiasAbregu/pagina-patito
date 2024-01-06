@@ -154,6 +154,13 @@ div .dot {
     }
 }
 
+@media screen and (min-width: 1366px) {
+    #contenedor1 {
+        margin-top: -13%;
+    }
+}
+
+
 @media screen and (min-width: 1920px) {
     #contenedor1 {
         margin-top: -7%;
